@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Elang - Proxycurl Test</title>
+  </head>
+  <body>
+    <!-- ============== NAVBAR ============== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm position-fixed w-100" style="top: 0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/logo/logo-sample.svg" alt="logo-sample" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">How It Works</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Use Cases</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <a class="navbar-brand" href="#">
+            <button class="btn btn-primary rounded-pill px-4 w-100">Start Free Trial</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============== FIRST FOLD ============== -->
+    <section class="container mt-5">
+      <div class="d-md-flex align-items-center py-5 gap-5">
+        <div class="col-12 col-md-6 mb-5 mb-md-0">
+          <h1 class="fw-bold">Monitor Your Network's Career Moves In <span class="text-primary">Real-Time</span></h1>
+          <p>No complex setup, paid subscriptions, or enterprise commitments needed. Track any LinkedIn profile with one click; Import contact lists via CSV; Or monitor whole companies automatically</p>
+          <button class="btn btn-secondary rounded-pill px-4">Track 10 Contacts Free</button>
+        </div>
+        <div class="mx-auto">
+          <img src="/assets/img/ilustration/hero.png" alt="ilustration" class="col-12 col-md-10" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SECOND FOLD ============== -->
+    <section class="bg-gradient-primary py-5">
+      <div class="container">
+        <h1 class="fw-bold text-center mb-3">Instant Career Movement<br class="d-none d-md-block" />Intelligence</h1>
+        <p class="text-center">No Technical Skills Required. Get powerful network monitoring<br class="d-none d-md-block" />without needing IT approval or complex setups</p>
+        <br /><br />
+
+        <ul class="nav nav-pills mb-5 gap-3 justify-content-center" data-aos="fade-up" data-aos-duration="2000" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill active" id="pills-monitoring-tab" data-bs-toggle="pill" data-bs-target="#pills-monitoring" type="button" role="tab" aria-controls="pills-monitoring" aria-selected="true">Monitoring</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-updates-tab" data-bs-toggle="pill" data-bs-target="#pills-updates" type="button" role="tab" aria-controls="pills-updates" aria-selected="false">Updates</button>
+          </li>
+        </ul>
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-monitoring" role="tabpanel" aria-labelledby="pills-monitoring-tab">
+            <div class="row">
+              <div class="accordion accordion-flush col-12 col-md-6" id="accordionFlushExample">
+                <div class="accordion-item bg-transparent">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"><h5>One Click</h5></button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">One-click LinkedIn profile tracking</div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><h5>Bulk Contact</h5></button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Bulk contact import via CSV</div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><h5>Company-wide</h5></button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Company-wide monitoring</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 text-center">
+                <img src="/assets/img/ilustration/second-fold.png" alt="second-fold" class="col-10 col-md-6" />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-updates" role="tabpanel" aria-labelledby="pills-updates-tab">
+            <div class="row">
+              <div class="accordion accordion-flush col-12 col-md-6" id="accordionFlushExample">
+                <div class="accordion-item bg-transparent">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><h5>Company-wide</h5></button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Company-wide monitoring</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 text-center">
+                <img src="/assets/img/ilustration/second-fold.png" alt="second-fold" class="col-10 col-md-6" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== THIRD FOLD ============== -->
+    <section class="container py-5">
+      <h1 class="fw-bold text-center my-3" data-aos="fade" data-aos-duration="2000">Strategies Used By Our Power<br class="d-none d-md-block" />Networkers</h1>
+      <p class="text-center" data-aos="fade" data-aos-duration="2000" data-aos-delay="250">No Technical Skills Required. Get powerful network monitoring<br class="d-none d-md-block" />without needing IT approval or complex setups</p>
+      <br /><br />
+      <div class="row gap-5 justify-content-center">
+        <div class="card col-lg-3 py-5 shadow-lg border-0 px-3" data-aos="fade-up" data-aos-duration="2000" style="width: 18rem; border-radius: 2rem">
+          <img src="/assets/img/icons/icon-1.svg" alt="icon-1" width="100" class="mx-auto" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Former Colleague</h5>
+            <p class="card-text text-center">Joined Target Company</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 py-5 shadow-lg border-0 px-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="250" style="width: 18rem; border-radius: 2rem">
+          <img src="/assets/img/icons/icon-2.svg" alt="icon-2" width="100" class="mx-auto" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Past Client</h5>
+            <p class="card-text text-center">Promoted to Decision Maker</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 py-5 shadow-lg border-0 px-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" style="width: 18rem; border-radius: 2rem">
+          <img src="/assets/img/icons/icon-3.svg" alt="icon-3" width="100" class="mx-auto" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Industry Contact</h5>
+            <p class="card-text text-center">Changed Industries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== FOURTH FOLD ============== -->
+    <section class="container py-5">
+      <h1 class="fw-bold text-center mt-3 mb-5" data-aos="fade" data-aos-duration="2000">Testimonials</h1>
+
+      <!-- Slider main container -->
+      <div class="swiper w-100" data-aos="fade-up" data-aos-duration="2000">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card py-4 shadow-sm border-0 px-3 w-100" style="border-radius: 2rem; min-height: 250px">
+              <div class="d-flex gap-3 container align-items-start">
+                <img src="/assets/img/avatars/ava-1.png" alt="ava-1" style="object-fit: contain" />
+                <div>
+                  <p class="text-primary fw-bold mb-0">Alex Red</p>
+                  <p class="opacity-50">CEO</p>
+                </div>
+                <img src="/assets/img/icons/Success.svg" alt="Success" style="object-fit: contain" class="opacity-20 ms-auto" />
+              </div>
+              <div class="card-body">
+                <p class="card-text opacity-50 fst-italic">"Before we started working with Acme Inc, the percentage of investments that we made that had data influence was around 5% and currently it's around 75%."</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card py-4 shadow-sm border-0 px-3 w-100" style="border-radius: 2rem; min-height: 250px">
+              <div class="d-flex gap-3 container align-items-start">
+                <img src="/assets/img/avatars/ava-2.png" alt="ava-2" style="object-fit: contain" />
+                <div>
+                  <p class="text-primary fw-bold mb-0">Salma Green</p>
+                  <p class="opacity-50">Marketing Lead</p>
+                </div>
+                <img src="/assets/img/icons/Success.svg" alt="Success" style="object-fit: contain" class="opacity-20 ms-auto" />
+              </div>
+              <div class="card-body">
+                <p class="card-text opacity-50 fst-italic">"We chose Acme Inc because of the coverage, data freshness, and ability to extend to other data sources."</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card py-4 shadow-sm border-0 px-3 w-100" style="border-radius: 2rem; min-height: 250px">
+              <div class="d-flex gap-3 container align-items-start">
+                <img src="/assets/img/avatars/ava-3.png" alt="ava-3" style="object-fit: contain" />
+                <div>
+                  <p class="text-primary fw-bold mb-0">Jada Maya</p>
+                  <p class="opacity-50">Growth Manager</p>
+                </div>
+                <img src="/assets/img/icons/Success.svg" alt="Success" style="object-fit: contain" class="opacity-20 ms-auto" />
+              </div>
+              <div class="card-body">
+                <p class="card-text opacity-50 fst-italic">"Acme Inc is a great tool for saving time and building pipelines and prospecting. The data freshness is a game changer for our team."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-button-next"></div> -->
+      </div>
+    </section>
+
+    <!-- ============== FOOTER ============== -->
+    <footer>
+      <div class="row col-lg-10 mx-auto gap-3 mb-5">
+        <ul class="list-group col">
+          <li class="nav-item list-group-item bg-transparent border-0">
+            <h6 class="fw-bold">Company</h6>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">About Us</a>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Blog</a>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Careers</a>
+          </li>
+        </ul>
+        <ul class="list-group col">
+          <li class="nav-item list-group-item bg-transparent border-0">
+            <h6 class="fw-bold">Product</h6>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Features</a>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Integrations</a>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">API</a>
+          </li>
+        </ul>
+        <ul class="list-group col">
+          <li class="nav-item list-group-item bg-transparent border-0">
+            <h6 class="fw-bold">Resources</h6>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Help Center</a>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Documentation</a>
+          </li>
+          <li class="nav-item list-group-item bg-transparent border-0 py-1">
+            <a class="nav-link text-secondary p-0" href="javascript:">Privacy Policy</a>
+          </li>
+        </ul>
+        <ul class="list-group col">
+          <li class="nav-item list-group-item bg-transparent border-0">
+            <h6 class="fw-bold">Social Links</h6>
+          </li>
+          <li class="list-group-item bg-transparent border-0 py-1">
+            <a href="javascript:"><img src="/assets/img/icons/Linkedin.svg" alt="LinkedIn" /></a>
+            <a href="javascript:" class="ms-2"><img src="/assets/img/icons/Twitter.svg" alt="Twitter" /></a>
+            <a href="javascript:" class="ms-2"><img src="/assets/img/icons/Facebook.svg" alt="Facebook" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="border">
+        <p class="text-center my-3 opacity-50">Copyright © 2024 Elang. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script type="module" src="/assets/js/swiper.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
